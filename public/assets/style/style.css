@@ -1,0 +1,41 @@
+body{
+    background-color: #cfcfcf;
+  }
+  .form-wrapper{
+    border-radius: 7px;
+  }
+  .form-wrapper label{
+    font-weight: bold;
+  }
+  .errors li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+  }
+  .errors ul{
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-bg{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #cfcfcf;
+  }
+
+  .noData{
+    background-color: grey;
+    color: honeydew;
+    size: 10px;
+
+  }
+  
+  @media (max-width: 768px){
+    .form-wrapper .text-right{
+      text-align: center !important;
+    }
+  
+    .form-wrapper .btn-primary{
+      display: block;
+      margin: 0 auto;
+    }
+  }
